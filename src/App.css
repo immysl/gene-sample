@@ -1,0 +1,67 @@
+h1 {
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.3em;
+}
+
+.app {
+  margin: auto;
+  max-width: 45em;
+  padding: 1em;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+label {
+  display: inline-block;
+  margin-right: 2%;
+  width: 30%;
+}
+
+input[type=text] {
+  border: 1px solid;
+  font-size: 1em;
+  padding: 0.4em 0.8em;
+  width: 30%;
+}
+
+button {
+  background: black;
+  border: 1px solid;
+  color: white;
+  font-size: 1em;
+  margin-left: 32%;
+  padding: 0.4em 0.8em;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.5em;
+}
+
+th {
+  background: black;
+  color: white;
+}
+
+section, form {
+  border-bottom: 1px dashed #999;
+  margin: 1em auto;
+}
+
+small {
+  font-size: 1em;
+}
